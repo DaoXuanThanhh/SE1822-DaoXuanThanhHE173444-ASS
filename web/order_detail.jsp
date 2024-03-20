@@ -52,7 +52,7 @@
                                         <th class="column-5">Order Id</th>
 
                                         <th class="column-1">Product</th>
-                                        <th class="column-2"></th>
+
                                         <th class="column-3">Price</th>
                                         <th class="column-4">Quantity</th>
                                     </tr>
@@ -301,7 +301,8 @@
         <script>
                             window.dataLayer = window.dataLayer || [];
                             function gtag() {
-                                dataLayer.push(arguments);}
+                                dataLayer.push(arguments);
+                            }
                             gtag('js', new Date());
 
                             gtag('config', 'UA-23581568-13');
